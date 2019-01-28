@@ -1,0 +1,83 @@
+/*** GENERAL       ***/
+body {
+  font-size: 12px;
+}
+
+/*** BOOTSTRAP     ***/
+div .container-fluid {
+  padding-left: 0px;
+}
+
+.container-0padding {
+  padding-left: 0px
+}
+
+
+/*** TABLES        ***/
+.active-row {
+  background-color: navy;
+  display:table-cell
+}
+
+.myrow {
+  font-family: Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 11px;
+  color: white;
+  background-color:black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: none;
+  display:table-row
+}
+
+.group-row {
+  cursor: pointer
+}
+
+.sortable-header {
+  cursor: pointer
+}
+
+.mycell {
+  background-color:black;
+  display:table-cell;
+}
+
+.changed {
+  background-color: green;
+}
+
+.public_fixedDataTable_main {
+  width: 1100px
+}
+
+.public_fixedDataTableCell_cellContent {
+  padding: 7px
+}
+
+/*** PORT MODAL     ***/
+.modal-container {
+  position: relative;
+}
+
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+div .port-modal {
+  color: navy;
+  width: 95%;
+  height: 95%
+}
+
+div .modal-content {
+  height: 95%
+}
+
+div .modal-body {
+  width: 100%
+}
+
+div .modal-dialog {
+  max-width: 2000px
+}

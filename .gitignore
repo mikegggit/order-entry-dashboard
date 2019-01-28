@@ -1,0 +1,10 @@
+**/node_modules
+**/*.iml
+**/*.log
+**/target
+.settings
+.classpath
+.idea
+.mvn
+**/mvnw
+**/mvnw.cmd
