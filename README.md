@@ -8,7 +8,8 @@ Goals
  - Find a solid table component.
  - Experiment with Flux, ImmutableJS and control of the rendering phase of the component lifecycle to obtain good usability in high-load situations.
  - Demonstrate a dashboard containing multiple panels containing graphs, sortable tables, drilldown cells, and summary statistics.
- - Gain more experience w/ the node / webpack ecosystem.
+ - Gain more experience w/ the node ecosystem.
+ - Compare browserify vs webpack
  - Create a bootstrap system capable of supporting future experiments.
 
 Note: The focus was not on creating a slick material-like layout.
