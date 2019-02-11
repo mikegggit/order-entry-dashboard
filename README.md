@@ -15,6 +15,10 @@ Goals
 Note: The focus was not on creating a slick material-like layout.
 
 
+![dash1](dash1.png)
+![dash2](dash2.png)
+
+
 Architecture
 ------------
 A stream generator simulates receipt of encoded messages from an upstream real-time system.  The generator targets a sync simulating a network endpoint and triggers an onData callback on the ingest component.  The ingest component parses messages into domain appropriate messages, performs various transformations as needed, and publishes snapshot information to websocket endpoint and/or updates in-memory cache store.
